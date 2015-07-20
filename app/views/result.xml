@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="resultWin">
+		<LeftNavButton platform="ios">
+            <ImageView image="/images/left_arrow.png" id="backBtn"></ImageView>
+        </LeftNavButton>
+        <Label id="article1" text="L('result_text1')"></Label>
+        <Label id="article2" text="L('result_text2')"></Label>
+	</Window>
+</Alloy>

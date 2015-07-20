@@ -1,0 +1,57 @@
+"Window":{
+	backgroundImage:"/images/background/background_light.png",
+	layout:"vertical"
+}
+"#table1":{
+	backgroundColor : 'white',
+	borderColor:"#d1d1d1",
+	borderRadius:5,
+	allowsSelection: false,
+	top:'5%',
+	height:Ti.UI.SIZE,
+	width:'95%'
+}
+"#sys_table":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE
+}
+
+"#table2":{
+	backgroundColor : 'white',
+	borderColor:"#d1d1d1",
+	borderRadius:5,
+	width:'95%',
+	height:Ti.UI.SIZE,
+	top:'10%'
+}
+
+"#tbr":{
+	right:10,
+	backgroundColor:"#70c5a8",
+}
+
+".tvrow":{
+	
+	color:'#70c5a8',
+	height:50
+}
+".noti_onoff":{
+	right:10,
+	width:50,
+	height:25
+}
+
+".setting_tr":{
+	rightImage:'/images/right_arrow.png',
+	color:'#70c5a8',
+	height:50
+}
+".headtitle":{
+	left:10,
+	font:{
+		fontSize:12
+	},
+	textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+	backgroundColor:'#fff',
+	color:'#000'
+}

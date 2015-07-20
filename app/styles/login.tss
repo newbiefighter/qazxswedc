@@ -1,0 +1,35 @@
+"Window": {
+	backgroundImage: "/images/background/background_light.png",
+	tabBarHidden: true,
+	zIndex:1
+}
+
+".backBtn":{
+
+	backgroundImage:"/images/left_arrow.png",
+	height:29,
+	width:29
+}
+"#newUser":{
+	color:"#70c5a8",
+	backgroundColor:'#70c5a8'
+}
+".table_row":{
+	backgroundColor:"#909090",
+	color:"#fff",
+	width:Ti.UI.FILL,
+	height:100,
+	layout:"horizontal"
+}
+
+".table_row_label":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	left:0,
+	width:Ti.UI.SIZE
+
+}
+
+".table_row_tf":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	right:0
+}

@@ -1,0 +1,40 @@
+<Alloy>
+	<Window id="detailWin" backgroundColor="#fff" layout="vertical">
+		<View id='detail_container'>
+			<ImageView id='service_type'></ImageView>
+			<View class="details">
+				<Label class='detail_label'>L('detail_service_zone')</Label>
+				<Label id='order_zone' class='detail_value'></Label>
+				<Label class='detail_label'>L('detail_service_date')</Label>
+				<Label id='date' class='detail_value'></Label>
+				<Label class='detail_label'>L('detail_service_time')</Label>
+				<Label id='period' class='detail_value'></Label>
+				<Label class='detail_label'>L('detail_service_fee')</Label>
+				<Label id='fee' class='detail_value'></Label>
+				<Label class='detail_label'>L('detail_special_req')</Label>
+				<Label id='special_req' class='detail_value'></Label>
+			</View>
+			<View class="iconbar">
+				<ImageView id='statusImg'></ImageView>
+				<Button id='dropBtn' title="L('drop')"></Button>	
+			</View>
+		</View>
+		
+		<View id='rate'>
+			<View class="badge">
+				<View class="badge_info">
+					<Label class='detail_label'>L('detail_assistant_name')</Label>
+					<Label id="name" class='detail_value'></Label>
+					<Label class='detail_label'>L('detail_average_mark')</Label>
+					<Label id="average_mark" class='detail_value'>L('detail_unknown')</Label>
+				</View>
+				<ImageView id="badge_portrait"></ImageView>
+			</View>
+			<View id="rating">
+				<Label class='detail_label'>L('detail_instant_mark')</Label>
+				<Label id="instant_mark" top="5" left="0">3.00</Label>
+				<Slider id="slider"  onChange="updateLabel"/>
+        	</View>
+		</View>
+	</Window>
+</Alloy>

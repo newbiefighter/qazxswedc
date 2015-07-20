@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="aboutusWin" backgroundColor="#fff" layout="vertical">
+		<LeftNavButton platform="ios">
+            <ImageView image="/images/left_arrow.png" id="backBtn" width="22" height="22"></ImageView>
+        </LeftNavButton>
+		<Label class="headline" top="10%">L('about_us')</Label>
+		<ImageView class="logo"></ImageView>
+		<Label class="artical" top="10%">L('version_android')</Label>
+		<!-- <Label class="artical" id="website_lbl">L('about_website')</Label>
+		<Label class="artical" id="facebook_lbl">L('about_facebook')</Label>
+		<Label class="artical" id="hotline_lbl">L('about_hotline')</Label> -->
+	</Window>
+</Alloy>

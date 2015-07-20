@@ -1,0 +1,45 @@
+"Window":{
+	backgroundColor:'#fff'
+}
+
+"#type":{
+	height:58,
+	width:58,
+	left:-5,
+	top:-5
+}
+"#orderNum" : {
+    width: Ti.UI.SIZE, height: Ti.UI.SIZE, left:60,top:'5dp',
+    font: { fontFamily:'Arial', fontSize: '18dp' },
+    color:'888888'
+}
+"#date":{
+	width: Ti.UI.SIZE, height: Ti.UI.SIZE, left:60,top:'30dp',
+	font: { fontFamily:'Arial', fontSize: '14dp' }
+}
+"#period":{
+	width: Ti.UI.SIZE, height: Ti.UI.SIZE, left:60,top:'50dp',
+	font: { fontFamily:'Arial', fontSize: '14dp' }
+}
+"#fee":{
+	width: Ti.UI.SIZE, height: Ti.UI.SIZE, right:"10%",top:'5dp',
+	font: { fontFamily:'Arial', fontSize: '18dp' },
+	color:'#70c5a8'
+}
+"#special_req":{
+	width: Ti.UI.SIZE, height: Ti.UI.SIZE, left:60,top:'65dp',
+	font: { fontFamily:'Arial', fontSize: '13dp' }
+}
+"#status":{
+	top:30,
+    width:45,
+    height:45,
+    right: '10%'
+    
+}
+
+
+"#activityIndicator":{
+	color:'red',
+	indicatorColor:'#000'
+}

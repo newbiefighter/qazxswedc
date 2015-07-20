@@ -1,0 +1,13 @@
+<Alloy>
+    <Window id="identifyWin" title="L('verification')" >
+        <LeftNavButton platform="ios">
+            <Button title="L('later')" id="laterBtn" />
+        </LeftNavButton>
+        <Label text="L('portrait_verification')"></Label>
+        <ImageView id='portrait'></ImageView>
+		<Button id='upload_btn' class="upload"></Button>
+        <Label text="L('assistant_certificate')" ></Label>
+        <ImageView id='certificate'></ImageView>
+
+    </Window>
+</Alloy>

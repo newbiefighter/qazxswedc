@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="loginWin" backgroundColor="#fff" layout="vertical">
+		<LeftNavButton platform="ios">
+            <Button title="L('cancel')" id="cancel"/>
+        </LeftNavButton>
+        <RightNavButton platform="ios">
+            <Button title="L('createnewuser')" id="newUser" />
+        </RightNavButton>
+	</Window>
+</Alloy>

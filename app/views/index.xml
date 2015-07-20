@@ -1,0 +1,44 @@
+<Alloy>
+	<!-- 							
+	<NavigationWindow id="index" platform="ios">
+		
+			<Require type="view" id="order" src="order"/>
+		
+	</NavigationWindow>
+
+	 	For Android we use a Window (Activity) with an ActionBar 						
+	<Window id="index" class="" title="Order" platform="android">
+		<Require type="view" id="order" src="order"/>
+	</Window> 
+	-->
+
+									
+	
+	<Window>
+		<!-- <ScrollableView id="scrollableView" showPagingControl="true">
+            <View id="view1" backgroundImage="scrollview1.png">
+               <Label>View 1</Label>
+            </View>
+            <View id="view2" backgroundImage="scrollview2.png">
+             <Label>View 2</Label>
+             </View>
+            <View id="view3" backgroundImage="scrollview3.png">
+             <Label>View 3</Label>
+             </View>
+             <View id="view4" backgroundImage="scrollview4.png">
+             <Label>View 4</Label>
+             </View>
+        </ScrollableView> -->
+	        <!-- <ScrollableView  id="scrollableView" showPagingControl="true">
+	            <ImageView id="view1" image="scrollview1.png"></ImageView>
+	            <ImageView id="view2" image="scrollview2.png"></ImageView>
+	            <ImageView id="view3" image="scrollview3.png"></ImageView>
+	            <ImageView id="view4" image="scrollview4.png"></ImageView>
+	        </ScrollableView> -->
+	    
+    </Window>
+		
+	
+
+
+</Alloy>

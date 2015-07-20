@@ -1,0 +1,87 @@
+<Alloy>
+	<TabGroup id="navGroup" activeTabIconTint= '#70c5a8' tabsTintColor='#70c5a8' barColor="#fff" tabsBackgroundColor="#fff">
+		<Tab title="L('current_orders')" icon="/images/current.png" activeIcon="current_active.png" id="navTab">
+			<Window class="container" title="L('current_orders')" cus_title="order" id="currentWin" onOpen="showIndicator">
+
+				<LeftNavButton platform="ios">
+		            <Button id="menuBtn" class="menu"/>
+		        </LeftNavButton>
+		        <View id='main'>
+		        	<TabbedBar id="tbr" platform="ios">
+						<Labels>
+							<Label>L('district_all')</Label>
+							<Label>L('hk_island')</Label>
+							<Label>L('kowloon')</Label>
+							<Label>L('new_territories')</Label>
+						</Labels>
+					</TabbedBar>
+		        	<View id="tbview" platform="android">
+						
+					</View>
+					
+						<ListView id='listview' defaultItemTemplate="template">
+				            <!--<SearchBar barColor="#000" />-->
+
+				            <Templates>		             
+				                <ItemTemplate name="template" height="80">
+				                	<ImageView bindId="typeImg" id="type" />
+				                	<Label bindId="region" id="region" />
+				                    <!-- <ImageView bindId="statusImg" id="status" /> -->
+				                    <Label bindId="period" id="period" />
+				                    <Label bindId="date" id="date" />	
+				                    <Label bindId="range" id="range" />	   
+				                    <Label bindId="fee" id="fee" />
+				                    <ImageView bindId="grabImg" id="grabImg" />
+				                </ItemTemplate>
+				            </Templates>
+			            	<ListSection id='section'>
+		                		
+
+		            		</ListSection>
+				            
+
+				            <PullView>
+				                <View backgroundColor="#fdb019" height="50">
+				                    <Label>L('pulldown_text')</Label>
+				                </View>
+				            </PullView>
+				            
+				        </ListView>
+				    
+				</View>
+			</Window>
+		</Tab>
+		<Tab title="L('received_orders')" icon="/images/history.png" activeIcon="history_active.png" id="receivedTab">
+			<Window title="L('received_orders')" id="receivedWin">
+				<LeftNavButton platform="ios">
+		            <Button id="menuBtn2" class="menu"/>
+		        </LeftNavButton>
+		        <View id='main2'>
+		        	<ListView id='listview2' defaultItemTemplate="template">
+			            <Templates>		             
+			                <ItemTemplate name="template" height="80">
+			                	<ImageView bindId="typeImg" id="type" />
+			                	<Label bindId="region" id="region" />
+			                    <!-- <ImageView bindId="statusImg" id="status" /> -->
+			                    <Label bindId="period" id="period" />
+			                    <Label bindId="date" id="date" />			                    
+			                    <Label bindId="fee" id="fee" />
+			                    <ImageView bindId="statusImg" id="statusImg" />
+			       
+			                </ItemTemplate>
+			            </Templates>
+			            	<ListSection id='section2'>
+		              
+		            		</ListSection>
+			            <PullView>
+			                <View backgroundColor="#fdb019" height="50">
+			                    <Label>L('pulldown_text')</Label>
+			                </View>
+			            </PullView>
+			            
+			        </ListView>
+			    </View>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

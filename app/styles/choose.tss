@@ -1,0 +1,15 @@
+
+"Button":{
+	width:200,
+	height:200,
+	
+}
+
+"#userBtn":{
+	top:'5%',
+	backgroundImage:'/images/user_version.png'
+}
+"#assistantBtn":{
+	top:'10%',
+	backgroundImage:'/images/assistant_version.png'
+}

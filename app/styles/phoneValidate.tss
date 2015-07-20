@@ -1,0 +1,12 @@
+"Window": {
+	backgroundImage: "/images/background/background_light.png",
+	layout:'vertical',
+	titleAttributes:  {  
+		color:'#70c5a8'
+	}
+}
+"#backBtn":{
+	width:22,
+	height:22,
+	left:-20
+}

@@ -1,0 +1,10 @@
+<Alloy>
+    <Window id="signupWin" title="L('signup')">
+    	<LeftNavButton platform="ios">
+            <ImageView image="/images/left_arrow.png" id="backBtn" width="22" height="22"></ImageView>
+        </LeftNavButton>
+        <!-- <RightNavButton platform="ios">
+            <Button title="L('next')" id="nextBtn" />
+        </RightNavButton> -->
+    </Window>
+</Alloy>

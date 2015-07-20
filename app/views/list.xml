@@ -1,0 +1,79 @@
+<Alloy>
+	<TabGroup activeTabIconTint= '#70c5a8' tabsTintColor='#70c5a8' barColor="#fff" tabsBackgroundColor="#fff">
+		<Tab title="L('current_orders')" icon="/images/current.png" activeIcon="current_active.png">
+			<Window title="Tab 1" id='currentWin' onOpen="showIndicator">
+				
+				<ListView id='listview' defaultItemTemplate="template">
+		            <!-- Sets ListView's searchView property.  
+		                 For Android, you can also do <SearchView platform="android" />
+		                 to use a Ti.UI.Android.SearchView instead of a search bar. -->
+		            <SearchBar barColor="#70c5a8" />
+
+		            <!-- Sets ListView's headerView property -->
+		            <!-- <HeaderView>
+		                <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+		                    <Label>Header View</Label>
+		                </View>
+		            </HeaderView> -->
+
+		            <Templates>
+
+		                <!-- Define your item templates within the Templates tags or use the
+		                     Require tag to include a view that only contains an ItemTemplate -->
+
+		                <ItemTemplate name="template" height="80">
+		                	<ImageView bindId="typeImg" id="type" />
+		                	<Label bindId="orderNum" id="orderNum" />
+		                    <ImageView bindId="statusImg" id="status" />
+		                    <Label bindId="date" id="date" />
+		                    <Label bindId="period" id="period" />
+		                    <Label bindId="fee" id="fee" />  
+		                    <!-- <Label bindId="special_req" id="special_req" /> -->
+		                </ItemTemplate>
+
+		            </Templates>
+
+		            <ListSection id='section'>
+		                <ListItem title="Papaya" searchableText="Papaya"/>
+		            </ListSection>
+
+		            <PullView>
+		                <View backgroundColor="#fdb019" height="50">
+		                    <Label>L('pulldown_text')</Label>
+		                </View>
+		            </PullView>
+		            
+		        </ListView>
+			</Window>
+		</Tab>
+		<Tab title="L('history_orders')" icon="/images/history.png" activeIcon="history_active.png">
+			<Window title="Tab 2" id="historyWin">
+				<ListView id='listview2' defaultItemTemplate="template">
+		            <SearchBar barColor="#70c5a8" />
+
+		            <Templates>		             
+		                <ItemTemplate name="template" height="80">
+		                	<ImageView bindId="typeImg" id="type" />
+		                	<Label bindId="orderNum" id="orderNum" />
+		                    <ImageView bindId="statusImg" id="status" />
+		                    <Label bindId="date" id="date" />
+		                    <Label bindId="period" id="period" />
+		                    <Label bindId="fee" id="fee" />
+		                </ItemTemplate>
+		            </Templates>
+
+		            <ListSection id='section2'>
+		                
+		            </ListSection>
+
+		            <PullView>
+		                <View backgroundColor="#fdb019" height="50">
+		                    <Label>L('pulldown_text')</Label>
+		                </View>
+		            </PullView>
+		            
+		        </ListView>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

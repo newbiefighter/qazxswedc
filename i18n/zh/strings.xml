@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!--		common		-->
+	<string name="en_startBtn">Start</string>
+	<string name="zh_hk_startBtn">開始使用</string>
+	<string name="en_login_first">Please login first.</string>
+	<string name="zh_hk_login_first">請先登入</string>
+	<string name="en_cancel">Cancel</string>
+	<string name="zh_hk_cancel">取消</string>
+	<string name="en_done">Done</string>
+	<string name="zh_hk_done">完成</string>
+	<string name="en_confirm">Confirm</string>
+	<string name="zh_hk_confirm">確認</string>
+	<string name="en_loading">Loading...</string>
+	<string name="zh_hk_loading">正在更新...</string>
+	<string name="en_waiting">Please wait...</string>
+	<string name="zh_hk_waiting">請稍等...</string>
+	<string name="en_process_error">Process Error,please try again.</string>
+	<string name="zh_hk_process_error">處理失敗，請再試.</string>
+	<string name="en_logout">Logout</string>
+	<string name="zh_hk_logout">登出</string>
+	<string name="en_error">Error</string>
+	<string name="zh_hk_error">錯誤</string>
+	<string name="en_warning">Warning</string>
+	<string name="zh_hk_warning">警告</string>
+	<string name="en_drop_order">Drop order</string>
+	<string name="zh_hk_drop_order">撤銷訂單</string>
+	<string name="en_subscribed">Subscribed</string>
+	<string name="zh_hk_subscribed">已訂閱</string>
+	<string name="en_unsubscribed">Unsubscribed</string>
+	<string name="zh_hk_unsubscribed">已取消訂閱</string>
+	<string name="en_second">s</string>
+	<string name="zh_hk_second">秒</string>
+	<string name="en_message_before">Your TidyUp PIN: </string>
+	<string name="zh_hk_message_before">您的執屋驗證碼為: </string>
+
+	<!--	detail 	-->
+	<string name="en_detail_badge">Order info</string>
+	<string name="zh_hk_detail_badge">訂單資料</string>
+	<string name="en_detail_service_zone">Service zone:</string>
+	<string name="zh_hk_detail_service_zone">服務區域:</string>
+	<string name="en_detail_service_date">Service date:</string>
+	<string name="zh_hk_detail_service_date">服務時間:</string>
+	<string name="en_detail_service_time">Service time:</string>
+	<string name="zh_hk_detail_service_time">服務時段:</string>
+	<string name="en_detail_service_fee">Service fee:</string>
+	<string name="zh_hk_detail_service_fee">服務費用:</string>
+	<string name="en_detail_address">Service address:</string>
+	<string name="zh_hk_detail_address">服務地址:</string>
+	<string name="en_detail_special_req">Special requirement:</string>
+	<string name="zh_hk_detail_special_req">特殊要求:</string>
+
+	<string name="en_take_order">Take order</string>
+	<string name="zh_hk_take_order">接受訂單</string>
+	<string name="en_confirm_order">Confirm order finished</string>
+	<string name="zh_hk_confirm_order">確認訂單已完成</string>
+
+	<string name="en_detail_assistant_name">Assistant name:</string>
+	<string name="zh_hk_detail_assistant_name">助理名字:</string>
+	<string name="en_detail_average_mark">Average mark:</string>
+	<string name="zh_hk_detail_average_mark">平均評分:</string>
+	<string name="en_detail_instant_mark">Instant mark:</string>
+	<string name="zh_hk_detail_instant_mark">即時評分:</string>
+	<string name="en_detail_unknown">Unknown</string>
+	<string name="zh_hk_detail_unknown">暫無</string>
+
+	<!-- 	Notification Text	-->
+	<string name="en_orderSent">Success push order to assistants around</string>
+	<string name="zh_hk_orderSent">成功推送訂單給您周圍的家務助理</string>
+	<string name="en_orderTaken">Your order has been taken. Please look up in Menu - My orders</string>
+	<string name="zh_hk_orderTaken">您的訂單已經被家務助理接受. 請到菜單﹣我的訂單里查閱</string>
+
+	<string name="en_notification">Notification</string>
+	<string name="zh_hk_notification">通知</string>
+	<string name="en_noti_sound">Sound</string>
+	<string name="zh_hk_noti_sound">聲音</string>
+	<string name="en_noti_vibrate">Vibration</string>
+	<string name="zh_hk_noti_vibrate">震動</string>
+
+<!-- setting page-->
+	<string name="en_system_preferences">SYSTEM PREFERENCES</string>
+	<string name="zh_hk_system_preferences">系統設置</string>
+	<string name="en_language">Language</string>
+	<string name="zh_hk_language">語言</string>
+
+	<string name="en_version">Version: 1.1</string>
+	<string name="zh_hk_version">版本: 1.1</string>
+	<string name="en_version_android">Version: 1.0</string>
+	<string name="zh_hk_version_android">版本: 1.0</string>
+	<string name="en_about_us">About us</string>
+	<string name="zh_hk_about_us">關於我們</string>
+	<string name="en_provision">Provision</string>
+	<string name="zh_hk_provision">服務條款</string>
+	<string name="en_privacy">Privacy</string>
+	<string name="zh_hk_privacy">隱私政策</string>
+
+	<string name="en_website">Website:</string>
+	<string name="zh_hk_website">網站:</string>
+	<string name="en_facebook">Facebook:</string>
+	<string name="zh_hk_facebook">Facebook:</string>
+	<string name="en_hotline">Customer Service Hotline:</string>
+	<string name="zh_hk_hotline">客戶服務電話:</string>
+
+<!-- slide menu -->
+	<string name="en_my_account">My Account</string>
+	<string name="zh_hk_my_account">我的賬戶</string>
+	<string name="en_my_order">My Orders</string>
+	<string name="zh_hk_my_order">我的訂單</string>
+	<string name="en_setting">Settings</string>
+	<string name="zh_hk_setting">設定</string>
+	<string name="en_login">Login</string>
+	<string name="zh_hk_login">登入</string>
+	<string name="en_noticeboard">Noticeboard</string>
+	<string name="zh_hk_noticeboard">公告板</string>
+	<string name="en_contact_us">Contact us</string>
+	<string name="zh_hk_contact_us">聯繫我們</string>
+	<string name="en_contact_tip">Call Ekuga customer service?</string>
+	<string name="zh_hk_contact_tip">Ekuga 客服竭誠為您服務</string>
+
+<!-- notice board-->
+	
+	<string name="en_notice">During the trial period , EKUGA mainly provides services for the following districts :\n
+1. Lai Chi Kok\n
+2. Tsuen Wan\n\n
+
+Other regions will accept orders as usual, but orders may not be accepted due to manpower shortage. Thanks for supporting EKUGA, we look forward to serving you soon.</string>
+	<string name="zh_hk_notice">試業期間，EKUGA主要為以下的地區提供服務：\n
+1. 荔枝角\n
+2. 荃灣\n\n
+
+其他地區仍會如常接受訂單，但可能會因為人手問題未能承接，謝謝支持EKUGA, 我們期待很快便能為你服務</string>
+
+
+<!--	provision   -->
+	<string name="zh_hk_provision_article1">歡迎使用EKUGA的手機應用軟體（下稱“EKUGA”或“我們”）以使用我們提供的產品及服務。EKUGA的服務由EKUGA SERVICES LIMITED基於以下服務條款及使用條件而提供。請仔細閱讀。我們向您（或稱“使用者”）提供的服務可能還需要您遵守其他條款及服務準則（包括服務說明及使用説明等），您應同時予以一併接受。</string>
+	<string name="zh_hk_provision_article2">為了使用我們提供的服務，您需要註冊一個EKUGA帳戶，帳戶名即為您所提供的常用手機號碼。通過EKUGA下發的驗證碼進行帳戶驗證後，該帳戶即可以使用。您可以在帳戶中查詢到您的訂單記錄，包括為您提供服務的家務助理資訊及所提供服務的具體地點記錄。如果您使用EKUGA服務，您應負責維護您的帳戶的保密性並限制協力廠商使用/訪問您的電腦或移動設備，並且，您同意對在您的帳戶和密碼下發生的所有活動承擔責任。如果您未滿18歲，您只能在父母或監護人的參與下使用服務。我們保留自行決定終止提供服務、關閉帳戶、刪除或編輯內容或取消訂單的權利。</string>
+	<string name="zh_hk_provision_article3">用戶應瞭解並知悉，EKUGA是為家務助理及使用者提供清潔服務資訊發佈及訪尋的居間服務平臺。使用者與家務助理通過EKUGA的居間服務，在雙方之間達成獨立的清潔服務協定，並承擔相應的權利和義務。如因家務助理原因導致用戶遭受相關財產及人身損害的，用戶應直接向家務助理追償，EKUGA免於承擔因家務助理與使用者之間清潔服務協定履行所致任何糾紛的賠償責任。</string>
+	<string name="zh_hk_provision_article4">本條款所述“服務訂單”，是指EKUGA接受用戶委託，承諾按照用戶具體需求訪尋相應提供具體服務的家務助理與使用者達成清潔服務協定的委託服務合同。
+3.1 使用者與EKUGA的服務訂單在下述時刻正式成立：
+    1)使用者通過EKUGA聯繫到能夠提供服務的家務助理並商定所需清潔服務的時間、地點等服務資訊之時；
+    2)用戶通過EKUGA客服要求EKUGA在具體時間和地點指派符合其要求的家務助理提供服務之時。
+3.2 EKUGA將根據服務訂單資訊訪尋到可以提供服務的家務助理，並促成家務助理與使用者之間按照使用者在服務訂單中的具體需求達成服務合同。家務助理與使用者之間達成服務合同後，EKUGA與使用者之間的服務協定終止。
+3.3如服務訂單無法履行（例如無法訪尋到適合用戶需求的家務助理的），我們將儘快與您聯繫並在獲得您的許可後取消服務訂單。
+3.4家務助理履行完畢其與使用者達成的服務合同後，使用者應當按照雙方之間達成的清潔服務協定向家務助理支付服務價款。用戶可作出相應的評價，以供EKUGA進一步改進服務。
+</string>
+	<string name="zh_hk_provision_article5">4.1 EKUGA會將家務助理資訊（包括但不限於姓名、評級、服務報價等）公佈於EKUGA服務平臺。我們努力使該等家務助理資訊盡可能地真實和準確，但是，我們無法就其內容的準確性、完整性、可靠性作出保證。如果您認為上述資訊與家務助理的真實資訊不一致，且您無法接受該不一致的，您唯一可以選擇的解決方式為解除與家務助理之間的服務合同，並通過客戶或服務評價體系通知我們，我們將即刻更新所發佈的資訊，並依照對家務助理的管理政策對家務助理作出相應處理。
+4.2使用者可以在EKUGA服務平臺張貼評論、意見和其他內容，以及提出建議、意見或其他資訊，唯其前提是該等內容須不違反香港現行法律法規及其他規範性檔的要求，不含有非法、淫穢、威脅、誹謗、侵犯隱私、侵犯智慧財產權或以其他形式對協力廠商權利構成侵犯。EKUGA保留清除或編輯這些內容的權利（但非義務），但不對使用者所張貼的內容進行經常性的審查。使用者聲明和保證對於因其所提供內容引起的對EKUGA的損害進行賠償。
+4.3如果使用者在EKUGA張貼內容或提交材料，除非我們另行說明，用戶同意授予EKUGA非獨有的、免費的、永久的、不可撤銷的和完全的再許可權的下述許可：在全世界範圍內任何媒體上使用、轉載、修改、改編、出版、翻譯、創作衍生作品、分發和展示這些內容。
+</string>
+	<string name="zh_hk_provision_article6">EKUGA可能會要求用戶提供其手機號碼及位置資訊等個人資訊，以便實現向使用者推薦更適合其地理範圍需求的家務助理等重要功能。EKUGA會盡最大努力對前述使用者個人資訊進行妥善保管，除征得用戶明確同意和法律明確規定外，EKUGA不會向任何協力廠商提供使用者前述資訊。</string>
+	<string name="zh_hk_provision_article7">您需要下載EKUGA提供的手機軟體並安裝後方得以從手機用戶端使用EKUGA所提供的服務。EKUGA在此授予您免費的、不可轉讓的、非獨占的全球性個人許可，允許您使用由EKUGA提供的、包含在服務中的軟體。但是，您不得複製、修改、發佈、出售或出租我們的服務或所含軟體的任何部分，也不得進行反向工程或試圖提取該軟體的原始程式碼，除非法律禁止上述限制或您已獲得EKUGA的書面許可。</string>
+	<string name="zh_hk_provision_article8">EKUGA服務所包含或提供的所有內容諸如文字、圖表、標識、按鈕圖示、圖像、音效檔片段、數位下載、資料編輯和軟體都是EKUGA或其內容提供者的財產，受香港和國際版權法的保護。EKUGA上所提供使用的所有軟體都是EKUGA或其軟體供應商的財產，受香港和國際版權法的保護。
+同時，EKUGA尊重他人的智慧財產權。如果您認為相應資訊對您的作品的使用已經構成版權侵犯，請通過[admin@ekugahk.com]或公佈於EKUGA的客服電話及時通知我們，我們將按照現行法律法規的規定的版權侵權投訴程式予以處理。同時，您同意補償EKUGA因您所提交的通知而可能產生的協力廠商對於EKUGA的索賠要求。
+</string>
+	<string name="zh_hk_provision_article9">本網站服務所包含或者提供的圖表、標識、網頁頁眉、按鈕圖示、文字、服務品名均為EKUGA的商標、注冊商標或商業外觀。這些商標或商業外觀不得以任何可能引起消費者混淆的方式或任何詆毀或誹謗EKUGA的方式用於與本網站或其關聯公司無關聯的任何商品或服務上。未經EKUGA的書面許可，本網站上的任何內容都不應被解釋為以默許或其他方式授予許可或使用本網站上出現的商標的權利。</string>
+	<string name="zh_hk_provision_article10">EKUGA始終在不斷更改和改進其所提供的服務。EKUGA可能會增加或刪除某項服務功能，也可能暫停或徹底停止某項服務。使用者可以隨時停止使用EKUGA的服務，EKUGA也可能隨時停止向使用者提供服務，或隨時對EKUGA的服務增加或設置新的限制。但是，如果EKUGA停止某項服務，則在可能的情況下，EKUGA會向用戶發出合理的提前通知，並讓用戶有機會備份和轉移其留存在EKUGA中的資訊。
+如使用者違反其在本服務條款及使用條件中的行為規範的，EKUGA有權隨時終止向使用者提供所述服務。
+EKUGA僅就本服務條款及使用條件所述服務向使用者承擔責任，且所承擔的賠償責任應以具體賠償事項所涉的用戶與家務助理達成的具體清潔服務協定之服務價款的三倍為限。EKUGA免于承擔因家務助理與使用者之間清潔服務協定履行所致任何糾紛的賠償責任。
+</string>
+	<string name="zh_hk_provision_article11">EKUGA負責按"現狀"和"可得到"的狀態向您提供服務。但EKUGA服務不作任何明示或暗示的保證，包括但不限於EKUGA服務的適用性、沒有錯誤或疏漏、持續性、準確性、可靠性、適用於某一特定用途。同時，EKUGA也不對其服務所涉及的技術及資訊的有效性、準確性、正確性、可靠性、品質、穩定、完整和及時性作出任何承諾和保證。
+EKUGA對由於政府行為譬如政策或法規的變更、自然災害或戰爭、通訊線路中斷、駭客攻擊、電腦病毒侵入或發作、電信部門技術調整、因政府管制而造成網站的暫時性關閉等任何影響網路正常運營的不可抗力事件，以及他人蓄意破壞、正常的系統維護、系統升級，或者因網路擁塞而導致本網站不能訪問而造成的本網站所提供的資訊及資料的延誤、停滯或錯誤，以及使用者由此受到的一切損失不承擔任何責任。
+EKUGA不對使用者所發佈資訊的保存、修改、刪除或儲存失敗負責。對網站上的非因EKUGA故意所導致的排字錯誤、疏忽等不承擔責任。
+EKUGA有權但無義務，改善或更正本網站任何部分之疏漏、錯誤。
+</string>
+	<string name="zh_hk_provision_article12">您同意本服務條款和使用條件以及您和EKUGA之間發生的任何爭議均適用中華人民共和國香港特別行政區法律。</string>
+	<string name="zh_hk_provision_article13">有關與您和EKUGA之間發生的任何形式的爭議均應友好協商解決，協商不成的，任一方有權將爭議提交香港特別行政區法院訴訟解決。</string>
+	<string name="zh_hk_provision_article14">為更好地提供服務並符合相關監管政策，我們可以隨時修改上述條款。請您定期查閱本條款。我們會在網頁上公佈這些條款的修改通知，並列明最近的修改日期。如您不同意我們對相應條款作出的修改，您應立即停止使用EKUGA所提供的服務。如果本條款中任何一條被視為廢止、無效或因任何理由不可執行，該使用條件應視為可分割的且不影響任何其餘條款的有效性和可執行性。</string>
+	<string name="zh_hk_provision_article15">EKUGA將通過電子郵件、短信、在本網站上發佈通知或其它服務與使用者進行聯繫。您同意我們用這些方式提供給您的所有協議、通知、披露和其他資訊是符合相關的法律法規要求的。如果我們以該等形式向您發出資訊或者在本網站上發出相關通知，將視為您已收到所有協議、聲明、披露和其它資訊。</string>
+	<string name="zh_hk_provision_article16">EKUGA在法律允許最大範圍內對本協議擁有解釋權與修改權。</string>
+	<string name="zh_hk_provision_title1">1.EKUGA帳戶</string>
+	<string name="zh_hk_provision_title2">2.EKUGA服務</string>
+	<string name="zh_hk_provision_title3">3.服務開始和提供</string>
+	<string name="zh_hk_provision_title4">4.資訊發佈</string>
+	<string name="zh_hk_provision_title5">5.隱私</string>
+	<string name="zh_hk_provision_title6">6.軟體使用條款</string>
+	<string name="zh_hk_provision_title7">7.版權</string>
+	<string name="zh_hk_provision_title8">8.商標權利</string>
+	<string name="zh_hk_provision_title9">9.服務的修改和終止</string>
+	<string name="zh_hk_provision_title10">10.有限責任</string>
+	<string name="zh_hk_provision_title11">11.適用法律</string>
+	<string name="zh_hk_provision_title12">12.爭議</string>
+	<string name="zh_hk_provision_title13">13.條款修改和可分性</string>
+	<string name="zh_hk_provision_title14">14.通訊</string>
+	
+<!-- user version-->
+
+	<!-- order page-->
+	<string name="en_order">Order</string>
+	<string name="zh_hk_order">訂單</string>
+	<string name="en_service_type">Service type</string>
+	<string name="zh_hk_service_type">服務類型</string>
+	<string name="en_service_time">Service time</string>
+	<string name="zh_hk_service_time">服務時間</string>
+	<string name="en_service_address">Service address</string>
+	<string name="zh_hk_service_address">服務地址</string>
+	<string name="en_hour_fee">Hours and fee</string>
+	<string name="zh_hk_hour_fee">時長與費用</string>
+	<string name="en_total">Total: </string>
+	<string name="zh_hk_total">總共:</string>
+	<string name="en_special_req">Special requirement(ex: cooking)</string>
+	<string name="zh_hk_special_req">特殊要求(如做飯)</string>
+	<string name="en_try_once">Try once</string>
+	<string name="zh_hk_try_once">試一次</string>
+	<string name="en_regular_service">Regular service</string>
+	<string name="zh_hk_regular_service">恒常</string>
+	<string name="en_send">Send</string>
+	<string name="zh_hk_send">發送</string>
+	<string name="en_getpin">Get PIN</string>
+	<string name="zh_hk_getpin">獲取PIN</string>
+	<string name="en_address_hint">Room,Building,Street...</string>
+	<string name="zh_hk_address_hint">房間，大廈，街道...</string>
+	<string name="en_text_after_send_order">Your order has been sent to surrounding assistants</string>
+	<string name="zh_hk_text_after_send_order">您的訂單已被發送給周圍的家務助理</string>
+	
+
+
+	<string name="en_every">Every</string>
+	<string name="zh_hk_every">每周</string>
+	<string name="en_every_2_weeks">Every 2 weeks</string>
+	<string name="zh_hk_every_2_weeks">每兩周</string>
+	<string name="en_every_3_weeks">Every 3 weeks</string>
+	<string name="zh_hk_every_3_weeks">每三周</string>
+	<string name="en_every_4_weeks">Every 4 weeks</string>
+	<string name="zh_hk_every_4_weeks">每四周</string>
+
+	<string name="en_Monday">Monday</string>
+	<string name="zh_hk_Monday">星期一</string>
+	<string name="en_Tuesday">Tuesday</string>
+	<string name="zh_hk_Tuesday">星期二</string>
+	<string name="en_Wednesday">Wednesday</string>
+	<string name="zh_hk_Wednesday">星期三</string>
+	<string name="en_Thursday">Thursday</string>
+	<string name="zh_hk_Thursday">星期四</string>
+	<string name="en_Friday">Friday</string>
+	<string name="zh_hk_Friday">星期五</string>
+	<string name="en_Saturday">Saturday</string>
+	<string name="zh_hk_Saturday">星期六</string>
+	<string name="en_Sunday">Sunday</string>
+	<string name="zh_hk_Sunday">星期天</string>
+	
+
+	<string name="en_district0">Hong Kong Island</string>
+	<string name="zh_hk_district0">香港島</string>
+	<string name="en_district1">Kowloon</string>
+	<string name="zh_hk_district1">九龍</string>
+	<string name="en_district2">New Territories</string>
+	<string name="zh_hk_district2">新界</string>
+
+	<string name="en_region_0_0">Kennedy Town</string>
+	<string name="zh_hk_region_0_0">堅尼地城</string>
+	<string name="en_region_0_1">Sheung Wan</string>
+	<string name="zh_hk_region_0_1">上環</string>
+	<string name="en_region_0_2">Central</string>
+	<string name="zh_hk_region_0_2">中環</string>
+	<string name="en_region_0_3">Admiralty</string>
+	<string name="zh_hk_region_0_3">金鐘</string>
+	<string name="en_region_0_4">Wan Chai</string>
+	<string name="zh_hk_region_0_4">灣仔</string>
+	<string name="en_region_0_5">Causeway Bay</string>
+	<string name="zh_hk_region_0_5">銅鑼灣</string>
+	<string name="en_region_0_6">Tin Hau</string>
+	<string name="zh_hk_region_0_6">天后</string>
+	<string name="en_region_0_7">Happy Valley</string>
+	<string name="zh_hk_region_0_7">跑馬地</string>
+	<string name="en_region_0_8">North Point</string>
+	<string name="zh_hk_region_0_8">北角</string>
+	<string name="en_region_0_9">Quarry Bay</string>
+	<string name="zh_hk_region_0_9">鰂魚涌</string>
+	<string name="en_region_0_10">Shau Kei Wan</string>
+	<string name="zh_hk_region_0_10">筲箕灣</string>
+	<string name="en_region_0_11">Chai Wan</string>
+	<string name="zh_hk_region_0_11">柴灣</string>
+	<string name="en_region_0_12">Aberdeen</string>
+	<string name="zh_hk_region_0_12">香港仔</string>
+	<string name="en_region_0_13">Repulse Bay</string>
+	<string name="zh_hk_region_0_13">淺水灣</string>
+	<string name="en_region_0_14">Stanley</string>
+	<string name="zh_hk_region_0_14">赤柱</string>
+
+	<string name="en_region_1_0">Tsim Sha Tsui</string>
+	<string name="zh_hk_region_1_0">尖沙咀</string>
+	<string name="en_region_1_1">Yau Ma Tei</string>
+	<string name="zh_hk_region_1_1">油麻地</string>
+	<string name="en_region_1_2">Mongkok</string>
+	<string name="zh_hk_region_1_2">旺角</string>
+	<string name="en_region_1_3">Sham Shui Po</string>
+	<string name="zh_hk_region_1_3">深水埗</string>
+	<string name="en_region_1_4">Cheung Sha Wan</string>
+	<string name="zh_hk_region_1_4">長沙灣</string>
+	<string name="en_region_1_5">Lai Chi Kok</string>
+	<string name="zh_hk_region_1_5">荔枝角</string>
+	<string name="en_region_1_6">Shek Kip Mei</string>
+	<string name="zh_hk_region_1_6">石峽尾</string>
+	<string name="en_region_1_7">Kowloon City</string>
+	<string name="zh_hk_region_1_7">九龍城</string>
+	<string name="en_region_1_8">Kowloon Tong</string>
+	<string name="zh_hk_region_1_8">九龍塘</string>
+	<string name="en_region_1_9">Ho Man Tin</string>
+	<string name="zh_hk_region_1_9">何文田</string>
+	<string name="en_region_1_10">Kwa</string>
+	<string name="zh_hk_region_1_10">土瓜灣</string>
+	<string name="en_region_1_11">Hung Hom</string>
+	<string name="zh_hk_region_1_11">红磡</string>
+	<string name="en_region_1_12">Wong Tai Sin</string>
+	<string name="zh_hk_region_1_12">黃大仙</string>
+	<string name="en_region_1_13">Diamond Hill</string>
+	<string name="zh_hk_region_1_13">鑽石山</string>
+	<string name="en_region_1_14">San Po Kong</string>
+	<string name="zh_hk_region_1_14">新蒲崗</string>
+	<string name="en_region_1_15">Tsz Wan Shan</string>
+	<string name="zh_hk_region_1_15">慈雲山</string>
+	<string name="en_region_1_16">Ngau Chi Wan</string>
+	<string name="zh_hk_region_1_16">牛池灣</string>
+	<string name="en_region_1_17">Lok Fu</string>
+	<string name="zh_hk_region_1_17">樂富</string>
+	<string name="en_region_1_18">Kowloon Bay</string>
+	<string name="zh_hk_region_1_18">九龍灣</string>
+	<string name="en_region_1_19">Ngau Tau Kok</string>
+	<string name="zh_hk_region_1_19">牛頭角</string>
+	<string name="en_region_1_20">Kwun Tong</string>
+	<string name="zh_hk_region_1_20">觀塘</string>
+	<string name="en_region_1_21">Lam Tin</string>
+	<string name="zh_hk_region_1_21">藍田</string>
+	<string name="en_region_1_22">Yau Tong</string>
+	<string name="zh_hk_region_1_22">油塘</string>
+
+	<string name="en_region_2_0">Kwai Chung</string>
+	<string name="zh_hk_region_2_0">葵涌</string>
+	<string name="en_region_2_1">Lai King</string>
+	<string name="zh_hk_region_2_1">荔景</string>
+	<string name="en_region_2_2">Tai Wo Hau</string>
+	<string name="zh_hk_region_2_2">大窩口</string>
+	<string name="en_region_2_3">Tsing Yi</string>
+	<string name="zh_hk_region_2_3">青衣</string>
+	<string name="en_region_2_4">Tsuen Wan</string>
+	<string name="zh_hk_region_2_4">荃灣</string>
+	<string name="en_region_2_5">Sham Tseng</string>
+	<string name="zh_hk_region_2_5">深井</string>
+	<string name="en_region_2_6">Ma Wan</string>
+	<string name="zh_hk_region_2_6">馬灣</string>
+	<string name="en_region_2_7">Tsing Lung Tau</string>
+	<string name="zh_hk_region_2_7">青龍頭</string>
+	<string name="en_region_2_8">Tuen Mun</string>
+	<string name="zh_hk_region_2_8">屯門</string>
+	<string name="en_region_2_9">Yuen Long</string>
+	<string name="zh_hk_region_2_9">元朗</string>
+	<string name="en_region_2_10">Tin Shui Wai</string>
+	<string name="zh_hk_region_2_10">天水圍</string>
+	<string name="en_region_2_11">Sheung Shui</string>
+	<string name="zh_hk_region_2_11">上水</string>
+	<string name="en_region_2_12">Fanling</string>
+	<string name="zh_hk_region_2_12">粉嶺</string>
+	<string name="en_region_2_13">Sha Tau Kok</string>
+	<string name="zh_hk_region_2_13">沙頭角</string>
+	<string name="en_region_2_14">Tai Po</string>
+	<string name="zh_hk_region_2_14">大埔</string>
+	<string name="en_region_2_15">Tai Wa</string>
+	<string name="zh_hk_region_2_15">大圍</string>
+	<string name="en_region_2_16">Sha Tin</string>
+	<string name="zh_hk_region_2_16">沙田</string>
+	<string name="en_region_2_17">Fo Tan</string>
+	<string name="zh_hk_region_2_17">火炭</string>
+	<string name="en_region_2_18">Ma On Shan</string>
+	<string name="zh_hk_region_2_18">馬鞍山</string>
+	<string name="en_region_2_19">Tseung Kwan O</string>
+	<string name="zh_hk_region_2_19">將軍澳</string>
+	<string name="en_region_2_20">Lantau Island</string>
+	<string name="zh_hk_region_2_20">大嶼山</string>
+	<string name="en_region_2_21">Chek Lap Kok</string>
+	<string name="zh_hk_region_2_21">赤鱲角</string>
+	<string name="en_region_2_22">Peng Chau</string>
+	<string name="zh_hk_region_2_22">坪洲</string>
+	<string name="en_region_2_23">Long Island</string>
+	<string name="zh_hk_region_2_23">長洲</string>
+	<string name="en_region_2_24">Lamma Island</string>
+	<string name="zh_hk_region_2_24">南丫島</string>
+
+
+	<!--	login & singup & myaccount-->
+	<string name="en_username">Username</string>
+	<string name="zh_hk_username">用戶名</string>
+	<string name="en_password">Password</string>
+	<string name="zh_hk_password">密碼</string>
+	<string name="en_password_hint">6-16 digits or letters</string>
+	<string name="zh_hk_password_hint">6-16位數字或字母</string>
+	<string name="en_password_again">Password again</string>
+	<string name="zh_hk_password_again">確認密碼</string>
+	<string name="en_password_again_hint">Fill in password again</string>
+	<string name="zh_hk_password_again_hint">請再次填寫密碼</string>
+	<string name="en_current_pwd">Current password</string>
+	<string name="zh_hk_current_pwd">當前密碼</string>
+	<string name="en_new_pwd">New password</string>
+	<string name="zh_hk_new_pwd">新密碼</string>
+	<string name="en_new_pwd_again">New password again</string>
+	<string name="zh_hk_new_pwd_again">確認新密碼</string>
+
+	<string name="en_required">Required</string>
+	<string name="zh_hk_required">必須填寫</string>
+	<string name="en_ayi_username_hint">Please fill in real name</string>
+	<string name="zh_hk_ayi_username_hint">請填寫真實姓名</string>
+	<string name="en_username_hint">Please fill in username</string>
+	<string name="zh_hk_username_hint">請填寫用戶名</string>
+	<string name="en_next">Next</string>
+	<string name="zh_hk_next">下一步</string>
+	<string name="en_signup">Sign up</string>
+	<string name="zh_hk_signup">註冊</string>
+	<string name="en_createnewuser">Sign up</string>
+	<string name="zh_hk_createnewuser">創建新賬戶</string>
+	<string name="en_telephone">Telephone</string>
+	<string name="zh_hk_telephone">電話</string>
+	<string name="en_telephone_hint">8 digits Hk telephone</string>
+	<string name="zh_hk_telephone_hint">8位香港電話號碼</string>
+	<string name="en_captcha">PIN code</string>
+	<string name="zh_hk_captcha">驗證碼</string>
+	<string name="en_captcha_hint">will send to your phone</string>
+	<string name="zh_hk_captcha_hint">將會發送到你手機上</string>
+	<string name="en_captcha_tip">Try again if you do not receive message within 5 minutes.</string>
+	<string name="zh_hk_captcha_tip">請五分鐘后再試</string>
+	<string name="en_register_welcome_title">Welcome</string>
+	<string name="zh_hk_register_welcome_title">歡迎</string>
+	<string name="en_register_welcome_article">Register succeed. Please login.</string>
+	<string name="zh_hk_register_welcome_article">註冊成功，請登入</string>
+
+	<string name="en_forgetpwd">Forget Password?</string>
+	<string name="zh_hk_forgetpwd">忘記密碼?</string>
+	<string name="en_newuser">New to Housework?</string>
+	<string name="zh_hk_newuser">新用戶?</string>
+	<string name="en_readprovisionlabel">Agree to the provision and privacy of Ekuga</string>
+	<string name="zh_hk_readprovisionlabel">同意接受的Ekuga的服務條款及隱私政策</string>
+	<string name="en_later">Later</string>
+	<string name="zh_hk_later">稍後</string>
+	<string name="en_cool">Cool</string>
+	<string name="zh_hk_cool">好噠</string>
+	<string name="en_subscribe_noti">Would you like to subscribe the notifications?</string>
+	<string name="zh_hk_subscribe_noti">請問您要接收通知嗎?</string>
+	<string name="en_info_modify_fail">Info modification fails</string>
+	<string name="zh_hk_info_modify_fail">信息更新失敗</string>
+	<string name="en_info_modify_success">Info modification success</string>
+	<string name="zh_hk_info_modify_success">信息更新成功</string>
+	<string name="en_submitBtn">Submit</string>
+	<string name="zh_hk_submitBtn">提交</string>
+
+	<string name="en_account_warning">Username or password is incorrect.</string>
+	<string name="zh_hk_account_warning">用戶名或密碼不正確</string>
+	<string name="en_assistant_verification">Assistant Verification</string>
+	<string name="zh_hk_assistant_verification">助理認證</string>
+	<string name="en_accept_provision">Please read and accept Ekuga provision.</string>
+	<string name="zh_hk_accept_provision">請閱讀并接受Ekuga條款</string>
+	<string name="en_sms_phone_error">Please fill in correct hk phone number</string>
+	<string name="zh_hk_sms_phone_error">請正確填寫香港手機號碼</string>
+	<string name="en_sms_phone_exist">This phone number has been signed up.</string>
+	<string name="zh_hk_sms_phone_exist">該手機號碼已被註冊</string>
+	<string name="en_logout_text">Logout success</string>
+	<string name="zh_hk_logout_text">成功登出</string>
+	<string name="en_identification_msg">You have been identified</string>
+	<string name="zh_hk_identification_msg">您已通過認證</string>
+	<string name="en_identification_error">You have submitted, please wait for review</string>
+	<string name="zh_hk_identification_error">您的提交正在審核，請耐心等候</string>
+
+	<!--	list    -->
+	<string name="en_order_num">Order No.</string>
+	<string name="zh_hk_order_num">訂單號</string>
+	<string name="en_pulldown_text">Release to reload</string>
+	<string name="zh_hk_pulldown_text">向下滑更新</string>
+
+
+<!-- assistant version-->
+	<string name="en_main_menu">Menu</string>
+	<string name="zh_hk_main_menu">選單</string>
+	<!-- Tab -->
+	<string name="en_refresh">Refresh</string>
+	<string name="zh_hk_refresh">刷新</string>
+	<string name="en_current_orders">Current Orders</string>
+	<string name="zh_hk_current_orders">當前訂單</string>
+	<string name="en_received_orders">Received Orders</string>
+	<string name="zh_hk_received_orders">已接訂單</string>
+	<string name="en_history_orders">History Orders</string>
+	<string name="zh_hk_history_orders">歷史訂單</string>
+	<!-- Tab 1-->
+	<string name="en_district_all">ALL</string>
+	<string name="zh_hk_district_all">所有</string>
+	<string name="en_hk_island">HK Island</string>
+	<string name="zh_hk_hk_island">港島</string>
+	<string name="en_kowloon">Kowloon</string>
+	<string name="zh_hk_kowloon">九龍</string>
+	<string name="en_new_territories">New Territories</string>
+	<string name="zh_hk_new_territories">新界</string>
+
+	<string name="en_grab">Grab</string>
+	<string name="zh_hk_grab">搶單</string>
+	<string name="en_grab_text">Are you sure to grab this order?</string>
+	<string name="zh_hk_grab_text">您確定要接單嗎?</string>
+	<string name="en_order_taken_success">Order taken successfully</string>
+	<string name="zh_hk_order_taken_success">接單成功</string>
+
+	<!-- detail  -->
+	<string name="en_grab">Take</string>
+	<string name="zh_hk_grab">搶單</string>
+	<string name="en_hour_unit">hours</string>
+	<string name="zh_hk_hour_unit">小時</string>
+
+	<!-- signup & identify -->
+	<string name="en_verification">Verification</string>
+	<string name="zh_hk_verification">認證</string>
+	<string name="en_portrait_verification">Portrait Verification:</string>
+	<string name="zh_hk_portrait_verification">頭像認證:</string>
+	<string name="en_assistant_certificate">Assistant Certificate:</string>
+	<string name="zh_hk_assistant_certificate">家務助理證:</string>
+	<string name="en_result_text1">Application has been accepted</string>
+	<string name="zh_hk_result_text1">申請已被接納</string>
+	<string name="en_result_text2">Our customer service will contact you soon</string>
+	<string name="zh_hk_result_text2">我們會有專人聯絡你</string>
+	
+	<string name="en_phone_hint">Please input phone number</string>
+	<string name="zh_hk_phone_hint">家務助理證</string>
+	<string name="en_captcha_hint2">Please input captcha</string>
+	<string name="zh_hk_captcha_hint2">家務助理證</string>
+
+</resources>

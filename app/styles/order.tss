@@ -1,0 +1,274 @@
+"Window": {
+	backgroundImage: "/images/background/background_light.png",
+	titleAttributes:  {
+        color:'#70c5a8',
+        font: {fontFamily:'Helvetica Neue', fontSize:18}	
+     
+    },
+	zIndex:1
+}
+
+"Label":{
+	font: {
+		fontFamily: 'Helvetica Neue'
+	},
+	color:'#888888',
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+
+"TextField":{
+	hintTextColor:'#888888'
+}
+
+".midsize":{
+	height:Ti.UI.SIZE
+}
+".bigsize":{
+	font:{
+		fontSize:18,
+		fontWeight:'bold'
+	}
+}
+"TabbedBar":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	backgroundColor:"#70c5a8",
+	tintColor:"#fff",
+	index:0,
+	font:{
+		fontSize:16
+	}
+}
+
+"#main":{
+	backgroundImage: "/images/background/background_light.png",
+	zIndex:99,
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	contentHeight:'200%',
+	backgroundColor: 'white',
+	layout:"vertical",
+	showVerticalScrollIndicator:"true"
+}
+
+"#menuBtn":{
+	backgroundImage:'images/menu.png',
+	height:22,
+	width:22
+}
+
+
+".pair":{
+	width:Ti.UI.FILL,
+	height:'8.5%',
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
+".pair2":{
+	width:Ti.UI.FILL,
+	height:'25%',
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
+".pair3":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE,
+	top:'7%',
+	left:"3%",
+	right:"3%"
+}
+".pair4":{
+	width:Ti.UI.FILL,
+	height:'12%',
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
+".order_icon":{
+	left:5,
+	height:29,
+	width:29
+}
+
+"#time_icon":{
+	backgroundImage:'/images/time.png'
+}
+"#addr_icon":{
+	backgroundImage:'/images/location.png'
+}
+"#fee_icon":{
+	backgroundImage:'/images/money.png'
+}
+"#regular_icon":{
+	backgroundImage:'/images/time.png'
+}
+"#special_icon":{
+	backgroundImage:'/images/special.png'
+}
+
+
+
+".order_label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	left:0,
+	//color: "#adadad",
+	font: {
+		fontSize:12,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+} 
+
+".pair-container":{
+
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	layout:"horizontal",
+	borderColor:'#d1d1d1',
+	borderWidth:1, 
+	borderRadius:5,
+	backgroundColor:'#fff'
+	
+}
+
+".line":{
+	left:5,
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	borderColor:'#fff'
+	
+}
+
+".order_btn":{
+	width:Ti.UI.FILL,
+	height:50,
+	backgroundColor:"#70c5a8",
+	color:"#fff",
+	font:{
+		fontSize:18,
+		fontFamily: 'Helvetica Neue'
+	},
+	style:Ti.UI.iPhone.SystemButtonStyle.BORDERED,
+	borderRadius:7
+}
+
+".hour-fee":{
+	height:Ti.UI.FILL,
+	borderWidth:1,
+	borderColor:"#d1d1d1"
+}
+".hour-fee-text1":{
+	left:'5%',
+	
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:"horizontal"
+}
+".hour-fee-text2":{
+	left:'5%',
+	
+	width:Ti.UI.SIZE,
+	height:29,
+	layout:"horizontal"
+}
+"#fee_label":{
+	color:'#000'
+}
+"#fee":{
+	left:5,
+	color:"#70c5a8"
+}
+
+
+".minus":{
+	backgroundImage:"/images/minus.png",
+	height:29,
+	width:29,
+	left:0
+}
+
+"#hours":{
+	width:'45%',
+	height:Ti.UI.FILL,
+	editable:false,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+"#price":{
+	width:'45%',
+	height:Ti.UI.FILL,
+	editable:false,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+".plus":{
+	backgroundImage:"/images/add.png",
+	height:29,
+	width:29,
+	right:0
+}
+
+
+"#combo_district":{
+	layout:'vertical'
+}
+
+"#time_tf":{
+	enabled:false
+}
+
+"#time_tf_android":{
+	enabled:true,
+	focusable:false
+}
+
+
+
+
+
+".order_icon_android":{
+	left:5,
+	height:29,
+	width:29,
+	top:10
+}
+
+".pair_android":{
+	width:Ti.UI.FILL,
+	height:50,
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
+".pair2_android":{
+	width:Ti.UI.FILL,
+	height:140,
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
+".pair3":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE,
+	top:'7%',
+	left:"3%",
+	right:"3%"
+}
+
+".pair4_android":{
+	width:Ti.UI.FILL,
+	height:60,
+	layout:"vertical",
+	top:'3%',
+	left:"3%",
+	right:"3%"
+}
