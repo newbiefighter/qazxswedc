@@ -1,6 +1,0 @@
-<Alloy>
-	<Window id="chooseWin" layout="vertical">
-		<Button id="userBtn" ></Button>
-		<Button id="assistantBtn"></Button>
-	</Window>
-</Alloy>

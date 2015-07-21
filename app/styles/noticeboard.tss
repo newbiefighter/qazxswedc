@@ -1,7 +1,0 @@
-".notice":{
-	width:Ti.UI.SIZE,
-	height:Ti.UI.SIZE,
-	left:"5%",
-	right:"5%",
-	top:"5%"
-}

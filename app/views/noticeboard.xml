@@ -1,8 +1,0 @@
-<Alloy>
-	<Window id="noticeWin" backgroundColor="#fff">
-		<LeftNavButton platform="ios">
-            <ImageView image="/images/left_arrow.png" id="backBtn" width="22" height="22"></ImageView>
-        </LeftNavButton>
-		<Label class="notice">L('notice')</Label>
-	</Window>
-</Alloy>
